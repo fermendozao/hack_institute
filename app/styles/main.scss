@@ -1,0 +1,15 @@
+$icon-font-path: '../fonts/';
+
+
+@import 'utils/utils';
+@import 'bootstrap-theme/bootstrap-config';
+@import 'components/components';
+@import 'pages/pages';
+
+
+@media screen and (min-width: 1200px){
+  .container{
+    width: 1200px;
+  }
+} 
+

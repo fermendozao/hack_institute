@@ -1,0 +1,63 @@
+body.home{
+  .hero-container{
+    height: 100vh;
+  }
+  .hero-img{
+    display: inline-block;
+    width: 100%;
+    background-image: url('../images/main_img.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 92vh;
+  }
+  .features{
+    background-color: $background-low;
+    padding: 10px 0;
+    margin: 15px 0;
+    text-align: center;
+    .feature{
+      padding: 30px;
+    }
+    .feature-icon{
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      width: 225px;
+      height: 224px;
+      border: 9px solid $primary_color;
+      border-radius: 50%;    
+      &:after{
+        content: '';
+        background-image: url('../images/hero-icons.png');
+        display: inline-block;
+        position: absolute;
+        width: 65px;
+        height: 63px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &.in-cloud::after{ background-position: 0 0; }
+      &.in-creative::after{ background-position: -66px 0; }
+      &.in-business::after{ background-position: -134px 0; }
+      &:before{
+        position: absolute;
+        width: 102%;
+        height: 102%;
+        border-radius: 50%;
+        content: '';
+        left: -2px;
+        top: -2px;
+        background-color: $primary_color;
+        transition: all .3s;  
+      }
+      &:hover{
+        &:before{
+          transform: scale(0.90);
+        }
+      }
+
+
+    }
+  }
+}

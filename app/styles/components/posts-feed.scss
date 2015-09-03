@@ -1,0 +1,40 @@
+.posts-feed{
+  margin-bottom: 20px;
+}
+.post{
+  margin: 50px 0;
+  .post-number, .post-icon{
+    display: inline-block;
+    color: white;    
+    border-radius: 50%;
+    margin: 5px 0;
+    font-size: 22px;
+  }
+  .post-number{
+    background-color: $hi_sea_blue;   
+    padding: 14px 15px;
+    max-width: 55px;
+    max-height: 55px;
+  }
+  .post-icon{
+    background-color: $hi_mexican_pink;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    &:after{
+      content: '';
+      position:absolute;
+      display: inline-block;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 46px;
+      height: 20px;
+      background: url('../images/icons.png') no-repeat;
+      background-position: 0 0;
+    }
+  }
+  h1{
+    padding-top: 60px;
+  }
+}

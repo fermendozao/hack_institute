@@ -1,0 +1,191 @@
+// Aileron Heavy
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronHeavy/aileron-heavy-webfont.eot');
+  src: url('../../fonts/AileronHeavy/aileron-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronHeavy/aileron-heavy-webfont.woff') format('woff'),
+       url('../../fonts/AileronHeavy/aileron-heavy-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronHeavy/aileron-heavy-webfont.svg#aileronheavy') format('svg');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+// Aileron Heavy Italic
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronHeavyItalic/aileron-heavyitalic-webfont.eot');
+  src: url('../../fonts/AileronHeavyItalic/aileron-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronHeavyItalic/aileron-heavyitalic-webfont.woff') format('woff'),
+       url('../../fonts/AileronHeavyItalic/aileron-heavyitalic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronHeavyItalic/aileron-heavyitalic-webfont.svg#aileronheavy_light') format('svg');
+  font-weight: bolder;
+  font-style: italic;
+}
+
+// Aileron Black
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronBlack/aileron-black-webfont.eot');
+  src: url('../../fonts/AileronBlack/aileron-black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronBlack/aileron-black-webfont.woff') format('woff'),
+       url('../../fonts/AileronBlack/aileron-black-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronBlack/aileron-black-webfont.svg#aileronblack') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+// Aileron Black Italic
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronBlackItalic/aileron-blackitalic-webfont.eot');
+  src: url('../../fonts/AileronBlackItalic/aileron-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronBlackItalic/aileron-blackitalic-webfont.woff') format('woff'),
+       url('../../fonts/AileronBlackItalic/aileron-blackitalic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronBlackItalic/aileron-blackitalic-webfont.svg#aileronblack_italic') format('svg');
+  font-weight: 800;
+  font-style: italic;
+}
+
+// Aileron Bold
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronBold/aileron-bold-webfont.eot');
+  src: url('../../fonts/AileronBold/aileron-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronBold/aileron-bold-webfont.woff') format('woff'),
+       url('../../fonts/AileronBold/aileron-bold-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronBold/aileron-bold-webfont.svg#aileronbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Aileron Bold Italic
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronBoldItalic/aileron-bolditalic-webfont.eot');
+  src: url('../../fonts/AileronBoldItalic/aileron-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronBoldItalic/aileron-bolditalic-webfont.woff') format('woff'),
+       url('../../fonts/AileronBoldItalic/aileron-bolditalic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronBoldItalic/aileron-bolditalic-webfont.svg#aileronbold_italic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+// Aileron Semibold
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronSemibold/aileron-semibold-webfont.eot');
+  src: url('../../fonts/AileronSemibold/aileron-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronSemibold/aileron-semibold-webfont.woff') format('woff'),
+       url('../../fonts/AileronSemibold/aileron-semibold-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronSemibold/aileron-semibold-webfont.svg#aileronsemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+// Aileron Semibold Italic
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronSemiboldItalic/aileron-semibolditalic-webfont.eot');
+  src: url('../../fonts/AileronSemiboldItalic/aileron-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronSemiboldItalic/aileron-semibolditalic-webfont.woff') format('woff'),
+       url('../../fonts/AileronSemiboldItalic/aileron-semibolditalic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronSemiboldItalic/aileron-semibolditalic-webfont.svg#aileronsemibold_italic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+
+// Aileron Regular
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronRegular/aileron-regular-webfont.eot');
+  src: url('../../fonts/AileronRegular/aileron-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronRegular/aileron-regular-webfont.woff') format('woff'),
+       url('../../fonts/AileronRegular/aileron-regular-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronRegular/aileron-regular-webfont.svg#aileronregular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+// Aileron Italic
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronItalic/aileron-italic-webfont.eot');
+  src: url('../../fonts/AileronItalic/aileron-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronItalic/aileron-italic-webfont.woff') format('woff'),
+       url('../../fonts/AileronItalic/aileron-italic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronItalic/aileron-italic-webfont.svg#aileronitalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+// Aileron Light
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronLight/aileron-light-webfont.eot');
+  src: url('../../fonts/AileronLight/aileron-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronLight/aileron-light-webfont.woff') format('woff'),
+       url('../../fonts/AileronLight/aileron-light-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronLight/aileron-light-webfont.svg#aileronlight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+// Aileron Light Italic
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronLightItalic/aileron-lightitalic-webfont.eot');
+  src: url('../../fonts/AileronLightItalic/aileron-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronLightItalic/aileron-lightitalic-webfont.woff') format('woff'),
+       url('../../fonts/AileronLightItalic/aileron-lightitalic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronLightItalic/aileron-lightitalic-webfont.svg#aileronlight_italic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+
+// Aileron Thin
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronThin/aileron-thin-webfont.eot');
+  src: url('../../fonts/AileronThin/aileron-thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronThin/aileron-thin-webfont.woff') format('woff'),
+       url('../../fonts/AileronThin/aileron-thin-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronThin/aileron-thin-webfont.svg#aileronthin') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+// Aileron Thin Italic
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronThin/aileron-thinitalic-webfont.eot');
+  src: url('../../fonts/AileronThin/aileron-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronThin/aileron-thinitalic-webfont.woff') format('woff'),
+       url('../../fonts/AileronThin/aileron-thinitalic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronThin/aileron-thinitalic-webfont.svg#aileronthin_italic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+
+// Aileron Ultralight
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronUltralight/aileron-ultralight-webfont.eot');
+  src: url('../../fonts/AileronUltralight/aileron-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronUltralight/aileron-ultralight-webfont.woff') format('woff'),
+       url('../../fonts/AileronUltralight/aileron-ultralight-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronUltralight/aileron-ultralight-webfont.svg#aileronultralight') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+// Aileron Ultralight
+@font-face {
+  font-family: 'Aileron';
+  src: url('../../fonts/AileronUltralightItalic/aileron-ultralightitalic-webfont.eot');
+  src: url('../../fonts/AileronUltralightItalic/aileron-ultralightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/AileronUltralightItalic/aileron-ultralightitalic-webfont.woff') format('woff'),
+       url('../../fonts/AileronUltralightItalic/aileron-ultralightitalic-webfont.ttf') format('truetype'),
+       url('../../fonts/AileronUltralightItalic/aileron-ultralightitalic-webfont.svg#aileronultralight_italic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}

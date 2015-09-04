@@ -28,4 +28,16 @@
     display: block;
     text-transform: none;
   }
+  @media screen and (max-width: $screen-sm-min){
+    width: 100%;
+  }
+}
+.help-text{
+  color: $hi_sea_blue;
+  font-weight: 500;
+  display: block;
+  margin: 15px 0;
+}
+h1, h2, h3{
+  text-transform: uppercase;
 }

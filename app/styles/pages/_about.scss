@@ -28,6 +28,7 @@ body.about{
       }
       &:hover{
         text-decoration: none;
+        opacity: .6;
         &:after{
           transform: translateY(-180%);
         }
@@ -38,6 +39,55 @@ body.about{
     img{
       width: 100%;
       height: auto;
+    }
+  }
+  .highlight-area{
+    background-color: $hi-yellow;
+    padding: 25px;
+    font-weight: 300;
+
+    h1, h2{
+      font-weight: 700;
+      font-size: 1.3em;
+      position: relative;
+
+      &:before{
+        content: '/';
+        transform: rotate(20deg);
+        position: absolute;
+        left: -20px;
+        bottom: 0;
+      }
+    }
+    p{
+      text-align: justify;
+    }
+    ul{
+      padding-left: 18px;
+      list-style: none;
+      li{
+        position: relative;
+        &:before{
+          content: '-';
+          position: absolute;
+          left: -15px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $screen-sm-min){
+    .hero-container .apply{
+      position: relative;
+      width: 100%;
+      top: 0;
+      right: 0;
+      border-radius: 0;
+      display: block;
+      height: 41px;
+      line-height: 1.6;
+      &:after{
+        display:none;
+      }
     }
   }
 }

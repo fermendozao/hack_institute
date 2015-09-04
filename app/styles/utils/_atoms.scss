@@ -13,3 +13,19 @@
     opacity: .8;
   }
 }
+.main-title{
+  display: block;
+  width: 480px;
+  font-size: 2em;
+  padding: 20px 45px;
+  margin: 50px auto;
+  text-align: center;
+  border-top: 3px solid $hi_sea_blue;
+  border-bottom: 3px solid $hi_sea_blue;
+  text-transform: uppercase;
+  span{
+    font-size: .8em;
+    display: block;
+    text-transform: none;
+  }
+}

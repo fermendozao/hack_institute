@@ -1,0 +1,43 @@
+body.about{
+  .hero-container{
+    position: relative;
+    margin-top: 20px;
+    .apply{
+      position: absolute;
+      top: 15px;
+      right: 45px;
+      background-color: $hi_mexican_pink;
+      border-radius: 50%;
+      color: white;
+      width: 170px;
+      height: 170px;
+      text-align: center;
+      font-size: 2em;
+      line-height: 6;
+      text-transform: uppercase;
+      &:after{
+        content: '';
+        display: block;
+        background: url(../images/icons.png);
+        background-position: 0 -94px;
+        width: 39px;
+        height: 26px;
+        margin: 0 auto;
+        transform: translateY(-200%);
+        transition: all .4s ease;
+      }
+      &:hover{
+        text-decoration: none;
+        &:after{
+          transform: translateY(-180%);
+        }
+      }
+    }
+  }
+  .hero-img{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}

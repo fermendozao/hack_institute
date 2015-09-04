@@ -11,9 +11,33 @@ if (DEBUG is false) or (!window.console?)
 SITE =
   common:
     init: ->
-      console.log 'hola'
       $('.nav-icon').on 'click',->
-        $(this).toggleClass 'open'
+        $('.nav-icon').toggleClass 'open'
+        $('.main-nav').toggleClass 'visible'
+
+      $('.tweet-carousel').jcarousel()
+
+      $('.jcarousel-control-prev').on('jcarouselcontrol:active', ->
+        $(this).removeClass 'inactive'
+        return
+      ).on('jcarouselcontrol:inactive', ->
+        $(this).addClass 'inactive'
+        return
+      ).jcarouselControl target: '-=1'
+      $('.jcarousel-control-next').on('jcarouselcontrol:active', ->
+        $(this).removeClass 'inactive'
+        return
+      ).on('jcarouselcontrol:inactive', ->
+        $(this).addClass 'inactive'
+        return
+      ).jcarouselControl target: '+=1'
+      $('.jcarousel-pagination').on('jcarouselpagination:active', 'a', ->
+        $(this).addClass 'active'
+        return
+      ).on('jcarouselpagination:inactive', 'a', ->
+        $(this).removeClass 'active'
+        return
+      ).jcarouselPagination()
 
 
       

@@ -4,9 +4,13 @@ block prepend body
     include components/header
     .hero-container
       .hero-img
-        .hero-desc
+      .hero-desc
+        h1 Courses for founders <br>& Hackers 
+        h2 Mexico City
+        a.btn.btn-block.btn-pink See courses
       .features
         .container
+          h1.highlight What is Hack Institute?
           .row
             .col-sm-4.feature
               .feature-icon.in-cloud
@@ -24,6 +28,8 @@ block prepend body
                 p
                 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mattis felis ac aliquam. Mauris mauris mi, facilisis a augue vel, placerat porttitor augue. 
     include components/posts-feed
+
+    include components/tweet-carousel
 
 
 

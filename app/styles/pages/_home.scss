@@ -1,4 +1,13 @@
 body.home{
+  header{
+    position: absolute;
+    margin: 0;;
+    top: 25px;
+    border: none;
+    .logo{
+      border: none;
+    }
+  }
   .hero-img{
     display: inline-block;
     width: 100%;

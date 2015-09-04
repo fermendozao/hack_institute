@@ -1,0 +1,15 @@
+.btn-pink{
+  background-color: $hi_mexican_pink;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  border-radius: 0;
+  padding: 12px 0;
+  transition: all .4s ease-in-out;
+
+  &:hover{
+    color: white;
+    opacity: .8;
+  }
+}

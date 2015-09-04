@@ -7,13 +7,50 @@ body.home{
     background-size: cover;
     height: 92vh;
   }
+  .hero-desc{
+    position: absolute;
+    width: 365px;
+    min-height: 365px;
+    top: 20%;
+    right: 8%;
+    background-color: rgba(40, 171, 220, .8);
+    padding: 60px 32px 20px;
+    text-align: right;
+    color: white;
+    h1{
+      text-transform: uppercase;
+      font-size: 2.5em;
+      font-weight: bolder;
+    }
+    h2{
+      font-size: 1.8em;
+      font-weight: semibold;
+    }
+    .btn-pink{
+      margin-top: 50px;
+    }
+  }
   .features{
     background-color: $background-low;
     padding: 10px 0;
     margin: 15px 0;
     text-align: center;
+    position: relative;
+    .highlight{
+      position: absolute;
+      right: 50%;
+      top: -63px;
+      transform: translateX(50%);
+      color: $hi_purple;
+      background-color: $hi_yellow;
+      text-transform: uppercase;
+      padding: 14px 60px;
+      font-size: 1.7em;
+      font-weight: bolder;
+    }
     .feature{
       padding: 30px;
+      font-weight: 300;
     }
     .feature-icon{
       position: relative;
@@ -53,8 +90,15 @@ body.home{
           transform: scale(0.90);
         }
       }
-
-
+    }
+  }
+  @media screen and (max-width: $screen-sm-min){
+    .hero-desc{
+      width: 100%;
+      right: 0;
+    }
+    .features .highlight{
+      position: relative;
     }
   }
 }

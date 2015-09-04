@@ -1,0 +1,40 @@
+footer
+  .container
+    .row
+      .col-md-8
+        form.form-horizontal
+          h2 Contacto
+          .col-sm-6
+            .form-group
+              label.col-sm-4(for="name") Nombre:
+              .col-sm-8
+                input.form-control(type="text" name="name" id="name")
+          .col-sm-6
+            .form-group
+              label.col-sm-4(for="lastname") Apellido:
+              .col-sm-8
+                input.form-control(type="text" name="lastname" id="lastname")
+          .col-sm-12
+            .form-group
+              label.col-sm-2(for="mail") Correo:
+              .col-sm-10
+                input.form-control(type="email" name="mail" id="mail")
+          .col-sm-10
+            .form-group
+              label.col-sm-2(for="message") Mensaje
+              .col-sm-10
+                textarea.form-control(col="1" row="1" name="message" id="message")
+          .col-sm-2.text-right
+            .form-group
+              a.btn.btn-block.btn-pink Enviar
+      .col-md-4
+        .social.clearfix
+          h2.pull-left Síguenos en:
+          a.social-icon.pull-right(href="#")
+            .fa.fa-facebook-f
+          a.social-icon.pull-right(href="#")
+            .fa.fa-twitter
+        .copy.clearfix
+          a.social-icon.mellow-logo.pull-left(href="")
+          p.pull-left Proyecto elaborado por: <br> Mellow.cc
+          

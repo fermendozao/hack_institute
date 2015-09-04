@@ -1,0 +1,101 @@
+footer{
+  background-color: $hi_soft_gray;
+  padding: 100px 0;
+  text-transform: uppercase;
+  h2{
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+  }
+  .form-group{
+    border-bottom: 2px solid $hi_sea_blue;
+    position: relative;
+    font-weight: 700;
+    label{ 
+      padding-top: 10px;
+      margin-left: -15px;
+    }
+    .btn-pink{
+      margin-bottom: 10px;
+    }
+  }
+  .form-control{
+    margin-top: -5px;
+    height: 40px;
+  }
+  .form-control, .form-control:focus, .form-control:active{
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none; 
+  }
+  textarea.form-control{
+    height: 61px;
+  }
+  .social{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    border: 3px solid $hi_sea_blue;
+    padding: 10px 15px 8px;
+    h2{
+      margin: 0;
+      line-height: 2.5;
+    }
+  }
+  .social-icon{
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    background-color: $hi_sea_blue;
+    color: white;
+    font-size: 1.7em;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 5px;
+    transition: all .4s ease;
+    &:hover{
+      opacity: .7;
+    }
+  }
+  .copy{
+    position: absolute;
+    bottom: -130px;
+    left: 10px;
+    color: $hi_sea_blue;
+    p{
+      margin: 6px 10px;
+      font-size: 1em;
+    } 
+  }
+  .mellow-logo{
+    width: 50px;
+    height: 50px;
+    &:after{
+      content: '';
+      display: inline-block;
+      width: 30px;
+      height: 35px;
+      background: url('../images/icons.png');
+      background-position: 0 -60px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }   
+  }
+  @media screen and (max-width: $screen-sm-min){
+    .copy{
+      position: relative;
+      bottom: 0;
+      left: 0;
+      margin: 20px 0;
+      float: right;
+    }
+  }
+}

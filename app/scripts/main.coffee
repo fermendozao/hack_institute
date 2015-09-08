@@ -15,7 +15,22 @@ SITE =
         $('.nav-icon').toggleClass 'open'
         $('.main-nav').toggleClass 'visible'
 
+
+      ## Initialize tweets carousel
       $('.tweet-carousel').jcarousel()
+
+      ## Initialize and configure guests carousel
+      jcarousel = $('.guests-carousel')
+      jcarousel.on('jcarousel:reload jcarousel:create', ->
+        carousel = $(this)
+        width = carousel.innerWidth()
+        if width >= 600
+          width = width / 3
+        else if width >= 350
+          width = width / 2
+        carousel.jcarousel('items').css 'width', Math.ceil(width) + 'px'
+        return
+      ).jcarousel wrap: 'circular'
 
       $('.jcarousel-control-prev').on('jcarouselcontrol:active', ->
         $(this).removeClass 'inactive'
@@ -31,16 +46,7 @@ SITE =
         $(this).addClass 'inactive'
         return
       ).jcarouselControl target: '+=1'
-      $('.jcarousel-pagination').on('jcarouselpagination:active', 'a', ->
-        $(this).addClass 'active'
-        return
-      ).on('jcarouselpagination:inactive', 'a', ->
-        $(this).removeClass 'active'
-        return
-      ).jcarouselPagination()
 
-
-      
 
 # DOM-based routing
 # http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/

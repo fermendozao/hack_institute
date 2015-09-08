@@ -3,7 +3,6 @@
   padding: 18px 25px;
   margin: 15px 0;
   article{
-    font-weight: 300;
     span.date{
       text-transform: uppercase;
       font-weight: 700;
@@ -22,31 +21,8 @@
     h2{
       font-size: 1.5em;
     }
-    h3{
-      font-size: 1.5em;
-    }
     ol{
       padding-left: 18px;
-    }
-    .bio{
-      .help-text{
-        text-align: left;
-      }
-      p{
-        margin: 0;
-      }
-    }
-  }
-  .social-links{
-    margin-top: 15px;
-    a{
-      color: $hi_mexican_pink;
-      font-size: 1.5em;
-      margin: 0 5px;
-      transition: all .4s ease;
-      &:hover{
-        opacity: .6;
-      }
     }
   }
   @media screen and (max-width: $screen-sm-min){

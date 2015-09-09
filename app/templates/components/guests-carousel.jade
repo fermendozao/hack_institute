@@ -1,0 +1,15 @@
+.guests-stream
+  .container.jcarousel-wrapper
+    .row
+      .guests-carousel(data-carousel="true")
+        ul
+          - for (var i = 0; i<5; i++){
+            li.container
+              include guest
+          - }
+
+      a.jcarousel-control-prev(data-jcarouselcontrol="true") ‹
+      a.jcarousel-control-next(data-jcarouselcontrol="true") ›
+
+
+

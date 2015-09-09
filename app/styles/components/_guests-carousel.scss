@@ -1,0 +1,67 @@
+.guests-stream{
+  margin-bottom: 30px;
+  .jcarousel-wrapper{
+    position: relative;
+  }
+  .jcarousel-control-prev,
+  .jcarousel-control-next{
+    background-color: $hi_sea_blue;
+    border-radius: 50%;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 0;
+    font-size: 7em;
+    line-height: .9;
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    right:50%;
+    cursor: pointer;
+    &:hover{
+      opacity: .8;
+    }
+  }
+  .jcarousel-control-next{
+    text-align: right;
+    transform: translate(145%, -125%);
+
+  }
+  .jcarousel-control-prev{
+    text-align: left;
+    transform: translate(-45%, -125%);
+  }
+}
+.guests-carousel{
+  overflow: hidden;
+  ul{
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    li{
+      float: left;
+    }
+  }
+  .mask{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    border: 8px solid $hi_mexican_pink;
+    z-index: 10;
+
+    img{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 266px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+

@@ -14,20 +14,20 @@ html.no-js
     // endbuild
 
     // build:css styles/main.css
-    link(rel='stylesheet' href='../styles/main.css')
+    link(rel='stylesheet' href='styles/main.css')
     // endbuild
 
     // build:js scripts/vendor/modernizr.js
     script(src='../bower_components/modernizr/modernizr.js')
     // endbuild
-    
+
     include ../components/navbar.jade
 
     block body
     | <!--[if lt IE 10]>
     |   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     | <![endif]-->
-    
+
     include ../components/footer
 
     // Google Analytics: change UA-XXXXX-X to be your site's ID.
@@ -41,7 +41,6 @@ html.no-js
 
     // build:js scripts/vendor.js
     // bower:js
-    script(src='/bower_components/modernizr/modernizr.js')
     script(src='/bower_components/jquery/dist/jquery.js')
     script(src='/bower_components/lodash/dist/lodash.compat.js')
     // endbower
@@ -60,7 +59,7 @@ html.no-js
     //script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js')
     //script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js')
     //script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js')
-    script(src='/bower_components/jcarousel/dist/jquery.jcarousel.min.js')     
+    script(src='/bower_components/jcarousel/dist/jquery.jcarousel.min.js')
     // endbuild
 
     // build:js scripts/main.js

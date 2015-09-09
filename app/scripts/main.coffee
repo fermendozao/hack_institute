@@ -14,6 +14,7 @@ SITE =
       $('.nav-icon').on 'click',->
         $('.nav-icon').toggleClass 'open'
         $('.main-nav').toggleClass 'visible'
+        $('body').toggleClass 'no-scroll'
 
 
       ## Initialize tweets carousel

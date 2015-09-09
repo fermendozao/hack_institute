@@ -54,3 +54,9 @@ header{
     }
   }
 }
+
+@media screen and (max-width: $screen-sm-min){
+  header .logo{
+    width: 230px;
+  }
+}

@@ -5,7 +5,7 @@
   font-style: normal;
   color: white;
   border-radius: 0;
-  padding: 12px 0;
+  padding: 12px 12px;
   transition: all .4s ease-in-out;
 
   &:hover{
@@ -40,4 +40,72 @@
 }
 h1, h2, h3{
   text-transform: uppercase;
+}
+article{
+  font-weight: 300;
+}
+.jcarousel-control-next,
+.jcarousel-control-prev{
+  transition: all .8s ease;
+  &:hover, &:active, &:focus{
+    text-decoration: none;
+  }
+}
+.post-info{
+  position: absolute;
+  width: 58px;
+  &.post-info-right{
+    right: 0;
+  }
+  &.post-info-left{
+    left: 0;
+  }
+
+}
+.tag-icon, .pig-icon{
+  display: inline-block;
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background-color: #EC1B54;
+  color: white;
+  border-radius: 50%;
+  margin: 5px 0;
+  font-size: 22px;
+
+  &:after{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url("../images/icons.png") no-repeat;
+  }
+}
+.tag-icon{
+  &:after{
+    background-position: 0 0;
+    width: 46px;
+    height: 20px;
+  }
+}
+.pig-icon{
+  &:after{
+    background-position: 0 -27px;
+    width: 34px;
+    height: 35px;
+  }
+}
+.post-number{
+  display: inline-block;
+  background-color: $hi_sea_blue;
+  padding: 14px 15px;
+  max-width: 55px;
+  max-height: 55px;
+  color: white;
+  border-radius: 50%;
+  margin: 5px 0;
+  font-size: 22px;
 }

@@ -9,43 +9,47 @@ block prepend body
             .hero-img
               img(src="http://placehold.it/1235x468")
             a.apply(href="") Aplica
-      .row
-        .col-xs-12
-          h1.main-title Hacking for Founders
-            span Zacatecas #95 Roma Norte, D.F.
-        .col-xs-12
-          .highlight-area
-            .row
-              .col-sm-2
-                a.btn.btn-block.btn-pink Descarga PDF
+      section#content
+        .row
+          .col-xs-12
+            h1.main-title Hacking for Founders
+              span Zacatecas #95 Roma Norte, D.F.
+          .col-xs-12
+            .highlight-area
+              .row
+                .post-info
+                  .post-number 01
+                  .tag-icon
 
-              .col-sm-7
-                h1 What is hacking <br> for founders?
-                p
-                | We are in an era with no precedents in Mexico, companies get founded daily from new ideas to new iterations of successful models. However we are still facing a great ratio of failure on those companies.
+                .col-xs-10.col-xs-offset-2.col-sm-7.col-sm-offset-2
+                  h1 What is hacking <br> for founders?
+                  p
+                  | We are in an era with no precedents in Mexico, companies get founded daily from new ideas to new iterations of successful models. However we are still facing a great ratio of failure on those companies.
 
-                p
-                | There are many reasons for why a company fails, product, market, technology and bad teams. In Hack Institute we want to contribute to founders on minimize the risk of failing by providing the techniques to launch and manage a digital company.
+                  p
+                  | There are many reasons for why a company fails, product, market, technology and bad teams. In Hack Institute we want to contribute to founders on minimize the risk of failing by providing the techniques to launch and manage a digital company.
 
-                p
-                | “Hacking for Founders” Program is not a development course, it’s a course designed by entrepreneurs for entrepreneurs with the idea of what we wish had known before starting our businesses from the point of view a non technical founder.
+                  p
+                  | “Hacking for Founders” Program is not a development course, it’s a course designed by entrepreneurs for entrepreneurs with the idea of what we wish had known before starting our businesses from the point of view a non technical founder.
 
-                p
-                | We will cover the basics on how to structure a product, what are the main languages, how to manage technical team, but above all we strive to give you the confidence to start your own business or grow your current company, and become a member of a closed community of entrepreneurs dedicated to change the face of this country.
+                  p
+                  | We will cover the basics on how to structure a product, what are the main languages, how to manage technical team, but above all we strive to give you the confidence to start your own business or grow your current company, and become a member of a closed community of entrepreneurs dedicated to change the face of this country.
 
-              .col-sm-3
-                h2 Student Type:
-                ul
-                  li 20-35 y/o Startup enthusiasts
-                  li Entrepreneurs
-                  li Collaborators in start ups and smalll companies
+                .col-xs-10.col-xs-offset-2.col-sm-3.col-sm-offset-0
+                  h2 Student Type:
+                  ul
+                    li 20-35 y/o Startup enthusiasts
+                    li Entrepreneurs
+                    li Collaborators in start ups and smalll companies
 
-                h2 Objectives
-                ul
-                  li Project launching
-                  li Hacking growth
-                  li UX/UI
-                  li Sales/Pitch perfection
+                  h2 Objectives
+                  ul
+                    li Project launching
+                    li Hacking growth
+                    li UX/UI
+                    li Sales/Pitch perfection
+
+              a.btn.btn-pink Descarga PDF
       .row
         .col-sm-12
           include components/itinerary
@@ -53,5 +57,45 @@ block prepend body
       .row
         .col-sm-12
           h1.main-title Our Guests
+
+      .row
+        .col-sm-12
+          include components/guests-carousel
+
+      section#plans
+        .row
+          .col-xs-12
+            .highlight-area
+              .row
+                .post-info
+                  .pig-icon
+
+                .col-xs-10.col-xs-offset-2.col-md-6.col-md-offset-1
+                  h1 Planes de financiamiento:
+                  p
+                  | We are in an era with no precedents in Mexico, companies get founded daily from new ideas to new iterations of successful models. However we are still facing a great ratio of failure on those companies.
+
+                  p
+                  | There are many reasons for why a company fails, product, market, technology and bad teams. In Hack Institute we want to contribute to founders on minimize the risk of failing by providing the techniques to launch and manage a digital company.
+
+                  p
+                  | “Hacking for Founders” Program is not a development course, it’s a course designed by entrepreneurs for entrepreneurs with the idea of what we wish had known before starting our businesses from the point of view a non technical founder.
+
+
+                .col-xs-10.col-xs-offset-2.col-md-5.col-md-offset-0
+                  .row.plan-info
+                    .col-xs-12.col-md-6
+                      span.plan-title Advanced
+                      span.plan-price
+                        small $
+                        | 3.88 <small>/MO</small>
+                      ul
+                        li Single Domain
+                        li Unlimited Disk Space
+                        li Unlimited Data Transfer
+                        li Unlimited Email Accounts
+                        li 1000 Email Accounts
+                  a.btn.btn-pink Buy Now
+
 
 
